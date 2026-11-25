@@ -1,0 +1,817 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#fff1bb"><meta name="format-detection" content="telephone=no"><meta name="author" content="Đinh Như Huy">
+<title>Tính lương và truy lĩnh 2026 - New | Thầy Đinh Như Huy</title>
+<style>
+:root{color-scheme:light;--ink:#18314e;--muted:#526073;--title:#862d24;--accent:#214c76;--line:#8c641f;--edge:#5e4114;--wash:#fff4cd;--surface:#fffdf3;--danger:#a22724;--shadow:0 5px 0 #98712a,0 12px 24px #70531b2b,inset 0 1px 0 #fff;font-family:"Segoe UI",Roboto,Arial,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:14px;-webkit-text-size-adjust:100%;text-size-adjust:100%}[hidden]{display:none!important}body{margin:0;min-height:100vh;min-height:100svh;color:var(--ink);background:radial-gradient(ellipse at 0% 0%,#fffdf0 0%,#fff1bb 65%,#ffefba 100%);line-height:1.45}h1,h2,h3,h4,p{margin:0}button,input,select{font:inherit}button,summary,select{cursor:pointer}button{touch-action:manipulation}a{color:var(--accent);text-underline-offset:3px}:focus-visible{outline:3px solid #1475b3;outline-offset:3px}button:disabled{cursor:default;opacity:.45}input,select{scroll-margin:90px}button:hover{filter:brightness(.98)}button:active:not(:disabled){transform:translateY(2px);box-shadow:0 1px 0 var(--edge)}
+.shell{width:100%;max-width:420px;margin:0 auto;padding:12px max(10px,env(safe-area-inset-right)) calc(96px + env(safe-area-inset-bottom)) max(10px,env(safe-area-inset-left))}.hero,.panel{border:2px solid var(--line);border-bottom-color:var(--edge);border-radius:18px;background:var(--surface);box-shadow:var(--shadow)}.hero{position:relative;overflow:hidden;padding:23px 26px;background:linear-gradient(120deg,#fffdf4,#ffe8a5)}.hero::after{content:"";position:absolute;width:210px;height:210px;border:34px solid #d4a34312;border-radius:50%;right:-55px;top:-83px;pointer-events:none}.eyebrow{color:#7a5517;font-size:11px;letter-spacing:.14em;font-weight:800;text-transform:uppercase}.hero-top{display:flex;justify-content:space-between;gap:20px;align-items:center}.hero-copy{max-width:620px}h1{color:var(--title);font-size:clamp(24px,3vw,34px);font-weight:850;letter-spacing:-.035em;line-height:1.18;margin-top:7px;text-shadow:0 1px 0 #fff,0 2px 2px #7e39242b}.hero-sub{font-size:14px;color:#555d68;margin-top:9px}.year-tag{display:inline-flex;align-items:center;gap:6px;padding:3px 9px;border:1px solid #af812d;border-radius:6px;font-size:11px;font-weight:800;color:#704c17;background:#fff5d7;margin-left:5px;vertical-align:middle;letter-spacing:0;text-shadow:none}.bases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;min-width:292px;position:relative;z-index:1}.basis{padding:10px 12px;border:1.5px solid #a88643;border-radius:11px;background:#fffcf0;box-shadow:0 3px 0 #d6b970}.basis:last-child{background:#f5df9f;border-color:#977023}.basis small{display:block;font-size:11px;color:#65572f}.basis b{font-size:20px;white-space:nowrap;font-variant-numeric:tabular-nums}.hero-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:16px;padding-top:12px;border-top:1px solid #c9a85d}.credit{font-size:12px;color:var(--muted)}.credit strong{color:var(--ink)}.credit a{display:inline-block;margin-left:6px}.workflow{display:flex;align-items:center;gap:8px;font-size:12px;color:#64542e}.workflow b{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;border:1px solid #af8835;background:#fffcf0;margin-right:3px;font-size:11px}.workflow .flow-arrow{color:#927023}
+.app-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:19px;margin-top:19px;align-items:start}.panel{padding:19px}.section-heading{display:flex;gap:11px;align-items:center;margin-bottom:14px}.step-badge{flex:0 0 35px;display:grid;place-items:center;height:35px;border:1.5px solid #784e1c;border-radius:10px;color:#fffaf0;background:linear-gradient(#a16f29,#7c531d);font-size:16px;font-weight:800;box-shadow:0 3px 0 #5b3e19}h2{font-size:19px;color:var(--title);letter-spacing:-.02em}h3{font-size:16px;color:var(--ink)}h4{font-size:14px}.hint,.subtle{font-size:12px;color:var(--muted);overflow-wrap:anywhere}.section-heading .hint{margin-top:2px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 10px}.fields{margin-top:10px}.field{display:flex;flex-direction:column;gap:5px;min-width:0}.field label{font-size:13px;font-weight:750;line-height:1.4}.field input,.field select{width:100%;min-width:0;min-height:47px;padding:9px 10px;border:1.5px solid #8a6b31;border-radius:9px;color:var(--ink);background:#fffefa;box-shadow:inset 0 2px 4px #775a1f14;font-size:16px}.field select{padding-right:6px}.field input::placeholder{color:#7b7c7c;font-size:13px}.field input[aria-invalid=true],.field select[aria-invalid=true]{border-color:var(--danger);background:#fff0e9}.essential{padding:13px;border:1.5px solid #ac873c;border-radius:12px;background:#fff4d0;box-shadow:0 3px 0 #e2c47d}.essential h3{font-size:14px;color:#76501b}.required{color:var(--title)}.field-note{margin-top:8px}.period-toggle{display:flex;align-items:flex-start;gap:8px;margin-top:12px;font-size:12px;font-weight:650;cursor:pointer}.period-toggle input{width:18px;height:18px;margin:0;accent-color:var(--accent);flex-shrink:0}.period-profile{margin-top:11px;padding-top:10px;border-top:1px dashed #b08d47}.period-profile .grid .field label{min-height:36px}.period-profile h4{font-size:13px;color:#76501b}.old-new-rates{margin-top:13px;padding-top:12px;border-top:1px solid #c6ab6b}.rate-new input{border-color:#446b81;background:#f5fbfb}.expand{border-top:1px solid #cdb884;margin-top:12px}.expand>summary{min-height:46px;padding:12px 0;font-size:13px;font-weight:750;color:var(--accent);touch-action:manipulation}.expand>summary::marker{color:#8e6727}.expand>summary small{display:block;font-size:11px;font-weight:400;color:var(--muted);padding-left:16px;margin-top:2px}.expand>summary+.hint{margin-bottom:10px}.expand .grid{margin-bottom:8px}.extra-group{padding:0 0 4px}.insurance-rates{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.insurance-rates .field label{font-size:12px}.submit-profile{margin-top:14px}.primary{width:100%;min-height:49px;padding:10px 14px;border:1.5px solid #163a5d;border-bottom:3px solid #0f2a45;border-radius:11px;color:#fff;background:linear-gradient(#2d5a81,#1b4167);box-shadow:0 4px 0 #112f4d,0 7px 12px #193d6224;font-size:14px;font-weight:750}.primary .btn-arrow{float:right;font-size:18px;line-height:20px}.profile-foot{font-size:11px;text-align:center;color:#685d43;margin-top:10px}.error{color:var(--danger);font-size:13px;font-weight:700;margin-top:10px}.calculation-column{min-width:0}.calculation-column>.panel+.panel{margin-top:19px}
+.modes{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.mode{width:100%;height:100%;min-height:126px;display:grid;grid-template-columns:32px minmax(0,1fr);gap:9px;text-align:left;align-content:start;padding:13px 11px;border:2px solid #775a22;border-bottom:3px solid #533b15;border-radius:12px;background:linear-gradient(#fffdf2,#f9eabc);color:var(--ink);box-shadow:0 3px 0 #c2a55b,0 5px 9px #785e1a18;transition:background .15s}.mode-num{display:grid;place-items:center;align-self:start;width:30px;height:30px;background:#ebd18f;color:#694c16;border:1px solid #b58d37;border-radius:9px;font-size:12px;font-weight:800}.mode strong{display:block;font-size:16px;letter-spacing:-.025em;line-height:1.3;margin-top:3px}.mode small{display:block;margin-top:5px;font-size:11px;line-height:1.45;color:#59616b}.mode-value{grid-column:2;display:block;font-size:12px;line-height:1.3;color:#72551e;font-weight:700;overflow-wrap:anywhere}.mode[aria-expanded=true]{background:linear-gradient(140deg,#2f5d81,#193e63);color:#fff;border-color:#153958;border-bottom-color:#0c2641;box-shadow:0 3px 0 #0b2944,0 7px 14px #14375730}.mode[aria-expanded=true] small{color:#e3edf2}.mode[aria-expanded=true] .mode-num{background:#f6d979;border-color:#e6c05a;color:#513d10}.mode[aria-expanded=true] .mode-value{color:#ffe39a}.mode.is-done .mode-value::before{content:"✓ ";font-weight:800}.start-hint{display:flex;gap:10px;align-items:center;padding:15px 0 0;margin-top:14px;border-top:1px dashed #cbb070;font-size:13px;color:#576270}.start-hint .mini-icon{display:grid;place-items:center;flex:0 0 25px;height:25px;border:1px solid #b18f3d;border-radius:7px;background:#f7e7b4;font-size:13px;font-weight:800;color:#79551e}.workspace{margin-top:22px;scroll-margin-top:18px}.workspace-top{display:flex;align-items:center;gap:9px;padding-top:17px;border-top:2px solid #b39654;margin-bottom:11px}.workspace-top .mini-step{display:inline-grid;place-items:center;border-radius:7px;width:27px;height:27px;background:#eee0b9;font-size:12px;font-weight:800;color:#70501b}.profile-summary{padding:10px 12px;border:1px solid #af9860;border-radius:10px;background:#f7efda;font-size:12px;color:#4d5e6b;display:flex;gap:7px;justify-content:space-between;align-items:center;margin-bottom:13px}.profile-summary p{overflow-wrap:anywhere}.edit-profile{display:inline-flex;align-items:center;justify-content:center;min-height:44px;flex-shrink:0;font-size:12px;font-weight:750}.basis-note{border-left:3px solid #a67b25;background:#fff2cf;padding:8px 10px;border-radius:0 7px 7px 0}.settings>*+*{margin-top:12px}.salary-rate-choice{border:0;padding:0;margin:0;min-inline-size:0}.salary-rate-choice legend{font-size:13px;font-weight:750;margin-bottom:6px}.segmented{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.radio-choice{position:relative;display:flex;min-width:0}.radio-choice input{position:absolute;opacity:0;width:100%;height:100%;margin:0}.radio-choice span{display:block;width:100%;border:1.5px solid #a48b51;border-radius:8px;padding:9px 8px;font-size:12px;font-weight:700;text-align:center;background:#fffdf6;cursor:pointer}.radio-choice input:checked+span{color:#fff;background:#2c5578;border-color:#173f61;box-shadow:inset 0 -2px #173958}.radio-choice input:focus-visible+span{outline:3px solid #1475b3;outline-offset:2px}.advanced-salary{margin-top:13px}.group-months{border:0;padding:0;margin:0;min-inline-size:0}.group-months legend{font-size:14px;font-weight:750}.month-actions{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:4px;margin-bottom:5px}.month-actions button{border:1px solid #a48b51;border-radius:7px;min-height:44px;background:#fff7e1;color:var(--accent);font-size:12px;font-weight:700;padding:5px 9px}.period-label{font-size:11px;color:#685c3b;margin-top:7px}.months{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:5px;margin:5px 0 8px}.month{position:relative;min-width:0}.month input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer}.month span{display:grid;place-items:center;min-height:44px;border:1.5px solid #8f7133;border-radius:8px;color:#6b603e;background:#fffdf4;font-size:12px;font-weight:750}.month input:checked+span{background:#2d5678;border-color:#193a59;color:#fff;box-shadow:0 2px 0 #13334f}.month input:checked+span::after{content:"✓";font-size:9px;position:absolute;top:1px;right:3px;color:#ffdf89}.month input:focus-visible+span{outline:3px solid #1475b3;outline-offset:2px}.override-row{border-bottom:1px solid #cdb884;padding:9px 0}.override-row .subtle{font-weight:800;margin-bottom:7px}.override-row:last-child{border:0}.calculate-wrap{margin-top:16px}.result{margin-top:17px;scroll-margin-top:18px}.amount{padding:17px 15px;border:1.5px solid #264d64;border-bottom:3px solid #183f59;border-radius:12px;background:linear-gradient(120deg,#e9f1ef,#d3e2e2);box-shadow:0 3px 0 #a7bebc}.amount span{display:block;font-size:12px;color:#3f5864}.amount b{display:block;font-size:clamp(26px,3.3vw,35px);letter-spacing:-.03em;color:#173c51;font-variant-numeric:tabular-nums;margin-top:3px;overflow-wrap:anywhere}.amount small{display:block;font-size:11px;color:#476571;margin-top:3px}.breakdown{margin:10px 0 0;font-size:13px}.breakdown>div{display:flex;justify-content:space-between;align-items:baseline;gap:9px;padding:7px 0;border-bottom:1px solid #ded0ab}.breakdown dt{min-width:0;overflow-wrap:anywhere}.breakdown dd{margin:0;text-align:right;max-width:52%;font-weight:750;font-variant-numeric:tabular-nums;flex-shrink:0;overflow-wrap:anywhere}.result .hint{margin-top:9px}.table-wrap{overflow-x:auto;margin-top:5px}table{width:100%;table-layout:fixed;border-collapse:collapse;font-size:11px;font-variant-numeric:tabular-nums}caption{text-align:left;font-size:11px;color:var(--muted);padding-bottom:7px}th,td{padding:8px 3px;border-bottom:1px solid #d1bd8b;text-align:right;overflow-wrap:anywhere}th:first-child,td:first-child{width:12%;text-align:left}thead{background:#eddeb4}td.negative{color:var(--danger)}.step-navigation{display:grid;grid-template-columns:1fr 1.35fr;gap:9px;padding-top:14px;margin-top:16px;border-top:1px solid #cdb884}.secondary{min-height:43px;padding:8px 9px;border:1.5px solid #8f7947;border-radius:9px;background:#fff5d4;color:#234766;box-shadow:0 2px 0 #c2a768;font-size:12px;font-weight:750}.secondary.next{background:#f4df9b;border-color:#916e22}.references{margin-top:21px;font-size:12px}.references>summary{color:#6e501d;font-size:13px;font-weight:750;min-height:24px}.references p{margin-top:10px}.sources{list-style:none;display:flex;gap:6px 14px;flex-wrap:wrap;padding:0;margin:12px 0 0}.footer-credit{text-align:center;font-size:11px;color:#80704a;margin-top:22px}.footer-credit strong{color:#69552e}
+
+.hero{padding:18px}.hero-top{display:block}.bases{margin-top:16px;min-width:0}.hero-bottom{gap:10px}.workflow{width:100%;justify-content:space-between;gap:4px}.app-layout{grid-template-columns:1fr;gap:19px;margin-top:19px}.panel{padding:17px}h1{font-size:27px}.hero-sub{font-size:13px}.basis b{font-size:20px}.mode{min-height:117px}.mode strong{font-size:16px}.mode small{font-size:12px}.mode-value{font-size:12px}.amount b{font-size:31px}.calculation-column>.panel+.panel{margin-top:19px}
+@media(max-width:389px){.shell{padding-inline:9px}.hero,.panel{padding:14px}.hero-bottom{margin-top:12px}h1{font-size:24px}.basis{padding:9px 8px}.basis b{font-size:18px}.grid{gap:10px 8px}.essential{padding:10px}.modes{gap:9px}.mode{grid-template-columns:25px minmax(0,1fr);gap:7px;padding:10px 8px}.mode-num{width:25px;height:27px;font-size:10px}.mode strong{font-size:14px}.mode small{font-size:11px}.mode-value{font-size:11px}.workflow{font-size:11px;gap:3px}.workflow b{width:18px;height:18px}.field label{font-size:12px}.field input{padding:8px}.insurance-rates{gap:5px}.insurance-rates .field label{font-size:11px}.breakdown{font-size:12px}.amount b{font-size:29px}.credit{font-size:11px}.step-navigation{grid-template-columns:1fr 1.2fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.mode{transition:none}}
+
+/* A single 420 px phone layout, centered on tablets and larger screens. */
+body{-webkit-tap-highlight-color:rgba(37,77,111,.15)}
+.hero-copy{max-width:none}.hero{padding:16px}.panel{padding:15px}
+h1{font-size:26px;line-height:1.22}h2{font-size:18px}.year-tag{margin:0 0 0 7px;font-size:10px;padding:2px 6px}
+.hero-sub{font-size:12px}.eyebrow{font-size:10px;letter-spacing:.12em;display:flex;align-items:center}
+.quick-nav{position:fixed;left:50%;bottom:0;z-index:20;transform:translateX(-50%);width:100%;max-width:420px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;padding:9px max(10px,env(safe-area-inset-right)) calc(9px + env(safe-area-inset-bottom)) max(10px,env(safe-area-inset-left));border:1.5px solid #7f5c1e;border-bottom:0;border-radius:14px 14px 0 0;background:#fff0be;box-shadow:0 -5px 18px #6f521b25,inset 0 1px #fff}
+.quick-nav a,.quick-nav button{display:flex;align-items:center;justify-content:center;min-height:44px;min-width:0;padding:6px 4px;border:1.5px solid #927331;border-bottom:3px solid #70551f;border-radius:8px;background:linear-gradient(#fffdf1,#f5e1a6);box-shadow:0 2px 0 #bc994c;color:#214567;font-size:12px;font-weight:750;text-align:center;text-decoration:none;touch-action:manipulation}
+.quick-nav button:not(:disabled){background:linear-gradient(#356184,#21496d);color:#fff;border-color:#193b59;border-bottom-color:#102d47;box-shadow:0 2px 0 #102e49}
+.quick-nav button:disabled{opacity:.55}.keyboard-open .quick-nav{display:none}
+.period-toggle{align-items:center;min-height:44px;margin-top:5px}.period-toggle input{width:20px;height:20px}
+.radio-choice span{display:flex;align-items:center;justify-content:center;min-height:45px}.month-actions button{min-height:44px}
+.field input,.field select{font-size:16px;line-height:1.35}.field input{min-height:48px}.field select{min-height:48px}
+.footer-credit{margin-top:18px}.references>summary{min-height:44px;display:list-item;padding:8px 0}
+@media(max-width:359px){.hero,.panel{padding:12px}.essential{padding:9px}.mode{padding:10px 7px}.mode strong{font-size:14px}.mode small{font-size:11px}.basis b{font-size:17px}.quick-nav{gap:5px}.quick-nav a,.quick-nav button{font-size:11px}.workflow{font-size:10px}.workflow b{margin-right:1px}.grid{gap:9px 7px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+
+.top-credit{margin:0 0 11px;padding:8px 9px;border:1.5px solid #916923;border-bottom:3px solid #6e4c19;border-radius:10px;background:linear-gradient(120deg,#fff9df,#ffe8aa);box-shadow:0 2px 0 #c49a45,0 5px 9px #77572218;color:#5c563f;font-size:11px;line-height:1.75;overflow-wrap:anywhere}
+.top-credit strong{display:inline-block;padding:0 4px;border-radius:4px;color:#892b21;background:#ffe09a;font-size:12px;font-weight:850;text-shadow:0 1px #fff1c9;box-shadow:inset 0 -1px #d7ac50}
+.top-credit a{color:#1b5079;font-weight:650;text-decoration-thickness:1px}.credit-divider{white-space:nowrap}
+.common-intro{margin-top:5px;font-size:11px}.common-fields{row-gap:12px;align-items:stretch}
+.common-fields .field{display:grid;grid-template-rows:36px 48px auto;gap:5px;align-content:start}
+.common-fields .field label{font-size:13px;line-height:1.35;font-weight:800;display:flex;align-items:flex-start;flex-wrap:wrap;align-content:start;gap:0 3px}
+.common-fields .field input{height:48px;font-size:17px;font-weight:650;border:1.5px solid #8a6529;background:#fffdf6;box-shadow:inset 0 2px 4px #79551b15,0 1px 0 #fff}
+.common-fields .rate-old input{background:#fff4d7;border-color:#96702b}.common-fields .rate-new input{background:#ecf4f4;border-color:#3b687d}
+.common-fields .hint{font-size:11px}.essential>.period-toggle{margin-top:13px;padding-top:10px;border-top:1px solid #c4a45b}
+@media(max-width:359px){.top-credit{font-size:10px;padding:7px 8px}.top-credit strong{font-size:11px}.common-fields .field label{font-size:12px}.common-fields .field{grid-template-rows:36px 48px auto}.common-fields .hint{font-size:10px}}
+
+
+/* Comfortable phone reading, with the same content and calculations. */
+:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;--muted:#3e4d60}
+body{font-size:16px;line-height:1.55}
+h1{font-size:27px;line-height:1.28;letter-spacing:-.025em}h2{font-size:21px;line-height:1.35}h3{font-size:18px;line-height:1.45}h4{font-size:16px}
+.hero-sub{font-size:15px;line-height:1.6}.eyebrow{font-size:12px;letter-spacing:.06em}.year-tag{font-size:11px}
+.top-credit{font-size:12px;line-height:1.8;color:#4d442e}.top-credit strong{font-size:14px}.top-credit a{font-size:12px}
+.basis small{font-size:14px;line-height:1.45;color:#51452d}.basis b{font-size:22px;line-height:1.4}
+.workflow{font-size:13px;gap:5px;flex-wrap:wrap}.workflow b{width:22px;height:22px;font-size:12px}
+.hint,.subtle,.common-intro,.common-fields .hint{font-size:14px;line-height:1.55;color:#3e4d60}
+.essential h3{font-size:17px}.common-intro{margin-top:7px}.fields{margin-top:13px}
+.field label,.common-fields .field label{font-size:15px;line-height:1.5;font-weight:750;display:block}
+.common-fields{gap:16px 10px}.common-fields .field{grid-template-rows:minmax(46px,auto) 54px auto;gap:6px}
+.field input,.field select,.common-fields .field input{font-size:20px;line-height:1.4;min-height:54px;height:auto;padding:10px;font-weight:650;color:#142c47}
+.field input::placeholder{font-size:16px;font-weight:400;color:#66717a;opacity:1}
+.field select{font-size:17px;font-weight:500;min-height:54px}
+.period-toggle{font-size:15px;line-height:1.5;gap:10px}.period-toggle input{width:22px;height:22px}
+.period-profile h4{font-size:16px}.period-profile .grid .field label{min-height:46px}
+.expand>summary,.references>summary{font-size:16px;line-height:1.5;min-height:52px;padding-top:13px;padding-bottom:13px}
+.expand>summary small,.insurance-rates .field label{font-size:14px;line-height:1.5;color:#3e4d60}
+.primary{font-size:17px;line-height:1.5;min-height:56px;padding:11px 12px}.primary .btn-arrow{line-height:25px}
+.profile-foot{font-size:14px;line-height:1.5;margin-top:12px}.error{font-size:16px;line-height:1.55}
+.modes{gap:12px}.mode{grid-template-columns:30px minmax(0,1fr);gap:8px;min-height:170px;padding:12px 10px}
+.mode-num{font-size:13px;width:30px;height:31px}.mode strong{font-size:18px;line-height:1.4;letter-spacing:-.02em}
+.mode small{font-size:14px;line-height:1.55;color:#3e4d60}.mode-value{grid-column:1/-1;font-size:16px;line-height:1.45;margin-top:2px}
+.mode[aria-expanded=true] small{color:#f2f5f8}.start-hint{font-size:15px;line-height:1.6}
+.workspace-top h3{font-size:19px}.workspace-top .mini-step{font-size:14px;width:30px;height:30px}
+.profile-summary{font-size:14px;line-height:1.55;flex-wrap:wrap;gap:4px}.edit-profile{font-size:15px;min-height:44px}
+.basis-note{font-size:14px;line-height:1.65}.group-months legend{font-size:17px}.period-label{font-size:14px;line-height:1.5}
+.month-actions button{font-size:15px;min-height:46px}.month span{font-size:15px;min-height:48px}
+.month input:checked+span::after{font-size:11px}.salary-rate-choice legend{font-size:16px}.radio-choice span{font-size:15px;line-height:1.5;min-height:52px}
+.amount{padding:17px 13px}.amount span{font-size:15px;line-height:1.55;color:#2f4c5b}.amount b{font-size:35px;line-height:1.35}.amount small{font-size:14px}
+.breakdown{font-size:16px;line-height:1.5}.breakdown>div{padding:10px 0;gap:8px}.breakdown dd{font-size:16px}.result .hint{font-size:14px}
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}table{min-width:370px;font-size:14px}caption{font-size:14px;line-height:1.5}th,td{padding:10px 5px}
+.secondary{font-size:15px;line-height:1.5;min-height:50px;padding:9px}.step-navigation{grid-template-columns:1fr 1.2fr}
+.references{font-size:15px;line-height:1.65}.sources{gap:10px 16px}.footer-credit{font-size:13px;line-height:1.6;color:#5e5036}
+.quick-nav a,.quick-nav button{font-size:14px;line-height:1.4;min-height:50px}
+@media(max-width:359px){
+ .common-fields{grid-template-columns:1fr;gap:15px}.common-fields .field{grid-template-rows:auto 54px auto}.common-fields .field label{min-height:0}
+ .modes{grid-template-columns:1fr}.mode{min-height:145px;grid-template-columns:32px minmax(0,1fr)}.mode-value{grid-column:2}.mode strong{font-size:18px}.mode small{font-size:14px}
+ .basis b{font-size:19px}.basis small{font-size:13px}.eyebrow{font-size:11px}.workflow{font-size:12px;gap:4px}
+ .top-credit{font-size:12px}.top-credit strong{font-size:14px}.common-fields .hint{font-size:14px}.quick-nav a,.quick-nav button{font-size:13px}
+ .grid:not(.common-fields):not(.insurance-rates){grid-template-columns:1fr}.period-profile .grid .field label{min-height:0}
+ .insurance-rates{grid-template-columns:1fr}.insurance-rates .field label{font-size:15px}.amount b{font-size:31px}
+}
+
+</style>
+</head>
+<body>
+<main class="shell">
+<div class="top-credit">Phát triển bởi thầy <strong>Đinh Như Huy</strong> <span class="credit-divider">- Fb:</span> <a href="https://www.facebook.com/mcnhuhuy" target="_blank" rel="noopener noreferrer" aria-label="Facebook của thầy Đinh Như Huy">https://www.facebook.com/mcnhuhuy</a></div>
+<header class="hero">
+ <div class="hero-top">
+  <div class="hero-copy"><p class="eyebrow">Công cụ dành cho thầy cô <span class="year-tag">NEW</span></p><h1>Tính lương và truy lĩnh 2026</h1><p class="hero-sub">Nhập một lần. Chọn từng mục tính. Đối chiếu rõ từng khoản.</p></div>
+  <div class="bases" aria-label="Lương cơ sở theo giai đoạn"><div class="basis"><small>Đến 30/06/2026</small><b>2.340.000 đ</b></div><div class="basis"><small>Từ 01/07/2026</small><b>2.530.000 đ</b></div></div>
+ </div>
+ <div class="hero-bottom"><div class="workflow" aria-label="Cách sử dụng"><span><b>1</b> Nhập chung</span><span class="flow-arrow" aria-hidden="true">→</span><span><b>2</b> Chọn mục tính</span><span class="flow-arrow" aria-hidden="true">→</span><span><b>3</b> Xem kết quả</span></div></div>
+</header>
+<div class="app-layout">
+<section class="panel input-panel" id="input-panel" aria-labelledby="input-title">
+ <div class="section-heading"><span class="step-badge" aria-hidden="true">1</span><div><h2 id="input-title">Nhập thông số chung</h2><p class="hint">Nhập một lần, dùng cho cả 4 mục tính.</p></div></div>
+ <div class="essential" id="shared-inputs">
+  <h3>Thông số lương và phụ cấp</h3>
+  <p class="hint common-intro">Nhập các ô dưới đây; khoản không hưởng để trống hoặc nhập 0.</p>
+  <div class="grid fields common-fields">
+   <div class="field"><label for="salary">Hệ số lương <span class="required">*</span></label><input id="salary" inputmode="decimal" maxlength="12" placeholder="Ví dụ 4,32" aria-describedby="salary-hint"><span class="hint" id="salary-hint">Nhập 4,32 hoặc 4.32.</span></div>
+   <div class="field"><label for="seniority">Thâm niên nghề (%)</label><input id="seniority" inputmode="decimal" maxlength="8" placeholder="Ví dụ 20"><span class="hint">Nhập 20 cho 20%.</span></div>
+   <div class="field rate-old"><label for="old-rate">Ưu đãi đứng lớp cũ (%) <span class="required">*</span></label><input id="old-rate" inputmode="decimal" maxlength="8" placeholder="Ví dụ 35"><span class="hint">Mức đã hưởng.</span></div>
+   <div class="field rate-new"><label for="new-rate">Ưu đãi đứng lớp mới (%)</label><input id="new-rate" inputmode="decimal" maxlength="8" placeholder="Ví dụ 45"><span class="hint">Mức đơn vị xác nhận.</span></div>
+   <div class="field"><label for="leadership">Hệ số chức vụ</label><input id="leadership" inputmode="decimal" maxlength="12" placeholder="Ví dụ 0,25"><span class="hint">Không hưởng: nhập 0.</span></div>
+   <div class="field"><label for="area">Hệ số khu vực</label><input id="area" inputmode="decimal" maxlength="12" placeholder="Ví dụ 0,10"><span class="hint">Không hưởng: nhập 0.</span></div>
+  </div>
+  <label class="period-toggle"><input id="period-change" type="checkbox"><span>Thông số tháng 7–12 khác tháng 1–6</span></label>
+  <div id="period-profile" class="period-profile" hidden><h4>Thông số riêng cho tháng 7–12</h4><p class="hint">Ô để trống tự dùng thông số chung.</p><div class="grid fields">
+   <div class="field"><label for="salary-second">Hệ số lương tháng 7–12</label><input id="salary-second" inputmode="decimal" maxlength="12" placeholder="Ví dụ 4,65"></div>
+   <div class="field"><label for="seniority-second">Thâm niên tháng 7–12 (%)</label><input id="seniority-second" inputmode="decimal" maxlength="8" placeholder="Dùng mức chung"></div>
+   <div class="field"><label for="old-rate-second">Ưu đãi cũ tháng 7–12 (%)</label><input id="old-rate-second" inputmode="decimal" maxlength="8" placeholder="Dùng mức chung"></div>
+  </div></div>
+ </div>
+ <details class="expand" id="rate-settings"><summary>Gợi ý tỷ lệ ưu đãi mới theo đối tượng</summary><div class="field"><label for="category">Đối tượng và địa bàn theo Nghị định 182</label><select id="category" aria-describedby="category-hint">
+              <option value="">Chọn đối tượng và địa bàn</option>
+              <optgroup label="THCS, THPT và giáo dục thường xuyên">
+                <option value="secondary-normal">40% · GV THCS, THPT, TT GDTX / GDNN–GDTX</option>
+                <option value="secondary-zone">45% · Các cơ sở trên tại xã KV I, II / đảo / biên giới</option>
+                <option value="gdtx-hard">70% · GV, quản lý TT GDTX / GDNN–GDTX vùng ĐBKK</option>
+                <option value="school-hard">80% · GV trường phổ thông vùng ĐBKK</option>
+              </optgroup>
+              <optgroup label="Mầm non, tiểu học và cơ sở đặc thù">
+                <option value="primary-normal">45% · GV mầm non, tiểu học</option>
+                <option value="primary-zone">60% · GV mầm non, tiểu học tại xã KV I, II / đảo / biên giới</option>
+                <option value="talent">60% · GV, quản lý trường năng khiếu, PTDT bán trú</option>
+                <option value="hard">70% · GV, quản lý vùng ĐBKK thuộc khoản 8</option>
+                <option value="boarding">80% · GV, quản lý trường nội trú, THPT chuyên, dự bị ĐH</option>
+                <option value="special">80% · GV, quản lý cơ sở dành cho người khuyết tật theo khoản 9</option>
+                <option value="primary-hard">80% · GV mầm non, trung học nghề, trường chuyên biệt vùng ĐBKK</option>
+              </optgroup>
+              <optgroup label="Hỗ trợ giáo dục, giáo dục nghề nghiệp và đại học">
+                <option value="support">20% · Nhân sự hỗ trợ giáo dục thuộc khoản 1</option>
+                <option value="university">25% · GV đại học, bồi dưỡng cấp trung ương, người hướng dẫn thực hành theo điểm b khoản 2</option>
+                <option value="vocational">30% · GV trung cấp, cao đẳng, TT GDNN, nhóm thuộc khoản 3</option>
+                <option value="vocational-zone">35% · GV TT GDNN tại xã KV I, II / đảo / biên giới</option>
+                <option value="vocational-forty">40% · GV tích hợp, thực hành hoặc chính trị theo khoản 5</option>
+                <option value="politics">45% · GV giáo dục chính trị, lý luận chính trị theo điểm c khoản 6</option>
+              </optgroup>
+              <option value="manual">Nhập mức đã được đơn vị xác nhận</option>
+            </select><p id="category-hint" class="hint">Chọn để điền tỷ lệ gợi ý vào ô ưu đãi mới. KV I, II là xã khu vực I, II vùng dân tộc thiểu số và miền núi; ĐBKK là vùng đặc biệt khó khăn.</p></div><p id="category-reference" class="hint basis-note fields" hidden></p><details class="expand"><summary>Dạy nhiều cơ sở, nhiều cấp hoặc hưởng theo giờ</summary><p class="hint">Dạy nhiều điểm trường hoặc nhiều cấp trong một cơ sở, lấy mức của nơi hoặc cấp có nhiều tiết/giờ chuẩn nhất trong tháng. Nếu bằng nhau, lấy mức cao hơn. Dạy liên trường theo phân công, dùng mức của cơ sở quản lý nhà giáo. Quy tắc này theo Điều 8.</p><p class="hint fields">Khoản ưu đãi đặc thù theo giờ tại Điều 4 có thể nhập bằng tiền trong phần tùy chỉnh tháng.</p></details></details>
+ <details class="expand" id="extra-fields"><summary>Phụ cấp khác <small>Bảo lưu, trách nhiệm, vượt khung, thu hút…</small></summary><p class="hint">Chỉ nhập khoản đang hưởng; ô không dùng để trống.</p><div class="grid extra-group">
+  <div class="field"><label for="reserved">Hệ số chênh lệch bảo lưu</label><input id="reserved" inputmode="decimal" maxlength="12" placeholder="Ví dụ 0,30"></div>
+  <div class="field"><label for="responsibility">Hệ số trách nhiệm</label><input id="responsibility" inputmode="decimal" maxlength="12" placeholder="Ví dụ 0,20"></div>
+  <div class="field"><label for="overgrade">Thâm niên vượt khung (%)</label><input id="overgrade" inputmode="decimal" maxlength="8" placeholder="Ví dụ 5"></div>
+  <div class="field"><label for="attraction">Thu hút (%)</label><input id="attraction" inputmode="decimal" maxlength="8" placeholder="Ví dụ 70"></div>
+ </div></details>
+ <details class="expand" id="insurance-fields"><summary>Bảo hiểm trích từ lương <small id="insurance-summary">BHXH 8% · BHYT 1,5% · BHTN 1%</small></summary><p class="hint">Sửa theo phiếu lương. Nhập 0 ở khoản không đóng.</p><div class="grid insurance-rates">
+  <div class="field"><label for="social-rate">BHXH (%)</label><input id="social-rate" inputmode="decimal" maxlength="8" value="8"></div>
+  <div class="field"><label for="health-rate">BHYT (%)</label><input id="health-rate" inputmode="decimal" maxlength="8" value="1,5"></div>
+  <div class="field"><label for="unemployment-rate">BHTN (%)</label><input id="unemployment-rate" inputmode="decimal" maxlength="8" value="1"></div>
+ </div><div class="field fields" id="region-field" hidden><label for="unemployment-region">Vùng lương tối thiểu để tính trần BHTN</label><select id="unemployment-region" aria-describedby="unemployment-hint"><option value="">Chọn vùng của nơi làm việc</option><option value="I">Vùng I · 5.310.000 đ/tháng</option><option value="II">Vùng II · 4.730.000 đ/tháng</option><option value="III">Vùng III · 4.140.000 đ/tháng</option><option value="IV">Vùng IV · 3.700.000 đ/tháng</option></select><p class="hint" id="unemployment-hint">Chỉ cần chọn khi trần BHTN theo vùng ảnh hưởng đến kết quả.</p></div></details>
+ <button id="start-calculation" class="primary submit-profile" type="button">Bắt đầu tính và đối chiếu <span class="btn-arrow" aria-hidden="true">→</span></button><p class="profile-foot">Thông số giữ nguyên khi chuyển giữa các mục tính.</p><p id="shared-error" class="error" role="alert" hidden></p>
+</section>
+<div class="calculation-column">
+<section class="panel" id="calculation-options" aria-labelledby="modes-title">
+ <div class="section-heading"><span class="step-badge" aria-hidden="true">2</span><div><h2 id="modes-title">Chọn mục cần tính</h2><p class="hint">Lần lượt từ 01 đến 04 hoặc chọn trực tiếp.</p></div></div>
+ <nav aria-label="Bốn mục tính lương và truy lĩnh"><ol class="modes">
+  <li><button class="mode" type="button" data-mode="old" aria-expanded="false" aria-controls="workspace"><span class="mode-num">01</span><span><strong>Lương cũ</strong><small>Đối chiếu trên mức cơ sở 2.340.000 đ</small></span><span class="mode-value" id="value-old">Xem lương một tháng →</span></button></li>
+  <li><button class="mode" type="button" data-mode="new" aria-expanded="false" aria-controls="workspace"><span class="mode-num">02</span><span><strong>Lương mới</strong><small>Lương cơ sở và ưu đãi theo mức chọn</small></span><span class="mode-value" id="value-new">Xem lương một tháng →</span></button></li>
+  <li><button class="mode" type="button" data-mode="base-arrears" aria-expanded="false" aria-controls="workspace"><span class="mode-num">03</span><span><strong>Truy lĩnh lương cơ sở</strong><small>Tháng 7–12 · Tăng 190.000 đ cơ sở</small></span><span class="mode-value" id="value-base-arrears">Tính chênh lệch lương →</span></button></li>
+  <li><button class="mode" type="button" data-mode="allowance-arrears" aria-expanded="false" aria-controls="workspace"><span class="mode-num">04</span><span><strong>Truy lĩnh ưu đãi</strong><small>Phụ cấp đứng lớp · Tháng 1–12</small></span><span class="mode-value" id="value-allowance-arrears">Tính chênh lệch phụ cấp →</span></button></li>
+ </ol></nav>
+ <div class="start-hint" id="start-hint"><span class="mini-icon" aria-hidden="true">1</span><p>Nhập các thông số chung, sau đó chọn mục cần tính để xem kết quả.</p></div>
+ <div id="workspace" class="workspace" hidden>
+  <div class="workspace-top"><span id="active-number" class="mini-step" aria-hidden="true"></span><h3 id="active-title" tabindex="-1"></h3></div>
+  <div class="profile-summary"><p id="profile-summary">Dùng thông số chung đã nhập.</p><a class="edit-profile" href="#input-panel">Sửa thông số ↑</a></div>
+  <p id="mode-context" class="hint basis-note"></p>
+  <div id="salary-settings" class="settings fields" hidden>
+   <div class="field"><label id="pay-month-label" for="pay-month">Tháng tính lương</label><select id="pay-month"></select></div>
+   <fieldset class="salary-rate-choice" id="salary-rate-choice" hidden><legend>Ưu đãi áp dụng cho lương mới</legend><div class="segmented"><label class="radio-choice"><input type="radio" name="salary-rate" value="old"><span>Dùng ưu đãi cũ</span></label><label class="radio-choice"><input type="radio" name="salary-rate" value="new" checked><span>Dùng ưu đãi mới</span></label></div></fieldset>
+   <details id="decree-settings" class="expand advanced-salary" hidden><summary>Tháng nghỉ không hưởng hoặc có mức chi riêng</summary><div class="grid"><div class="field"><label for="excluded-days">Ngày không hưởng ưu đãi</label><input id="excluded-days" inputmode="numeric" maxlength="2" placeholder="0–22"></div><div class="field"><label for="decree-actual">Tiền ưu đãi mới của tháng (đ)</label><input id="decree-actual" inputmode="numeric" maxlength="16" placeholder="Để trống để tính theo %"></div></div><p class="hint">Mỗi ngày không hưởng giảm 1/22 phụ cấp. Nếu nhập tiền đã chốt, dùng trực tiếp số tiền đó. Các khoản lương khác tính đủ tháng.</p></details>
+  </div>
+  <div id="arrears-settings" class="settings fields" hidden>
+   <fieldset class="group-months"><legend>Chọn các tháng cần truy lĩnh</legend><div class="month-actions"><span id="month-count" class="hint" aria-live="polite"></span><button id="toggle-months" type="button">Bỏ chọn hết</button></div><div id="first-half"><p class="period-label">Tháng 1–6 · 2.340.000 đ</p><div class="months" id="first-months"></div></div><p class="period-label">Tháng 7–12 <span id="second-half-basis"></span></p><div class="months" id="second-months"></div></fieldset>
+   <p id="arrears-note" class="hint basis-note"></p>
+   <details id="month-overrides" class="expand" hidden><summary>Tùy chỉnh phụ cấp từng tháng</summary><p class="hint">Chỉ sửa tháng khác mức chung. Nếu nhập tiền ưu đãi mới, số tiền đó được dùng trực tiếp. Tiền ưu đãi cũ nhập theo bảng đối chiếu trên lương cơ sở đúng kỳ.</p><div id="override-fields"></div></details>
+   <details class="expand" id="paid-details"><summary>Đã nhận một phần truy lĩnh?</summary><div class="field"><label for="already-paid">Tiền truy lĩnh đã nhận (đ)</label><input id="already-paid" inputmode="numeric" maxlength="16" placeholder="0 nếu chưa nhận" aria-describedby="paid-hint"><p id="paid-hint" class="hint"></p></div></details>
+  </div>
+  <div class="calculate-wrap"><button id="calculate" class="primary" type="button">Tính kết quả</button></div><p id="mode-error" class="error" role="alert" hidden></p>
+  <section id="result" class="result" aria-label="Kết quả tính" tabindex="-1" hidden></section>
+  <div class="step-navigation"><button class="secondary" id="previous-mode" type="button">← Mục trước</button><button class="secondary next" id="next-mode" type="button">Mục tiếp theo →</button></div>
+ </div>
+</section>
+</div>
+</div>
+    <details class="panel references">
+      <summary>Cách tính và căn cứ</summary>
+      <p>Lương ngạch, bậc bằng hệ số lương nhân lương cơ sở. Phụ cấp ưu đãi cũ tính trên lương ngạch, bậc, chức vụ lãnh đạo và thâm niên vượt khung. Điều 5 Nghị định 182 bổ sung hệ số chênh lệch bảo lưu vào căn cứ tính ưu đãi mới.</p>
+      <p>Nghị định 182 có hiệu lực ngày 07/07/2026. Các mức phụ cấp được thực hiện từ 01/01/2026. Phụ cấp ưu đãi theo nghề được trả cả thời gian nghỉ hè theo Điều 7.</p>
+      <p>Tiền lương ước tính theo tháng hưởng đủ lương, sau bảo hiểm và trước thuế thu nhập cá nhân. Hệ số lương, thâm niên nghề và ưu đãi cũ có thể khai báo riêng cho tháng 7–12. Các mục tính tự lấy thông số theo tháng đã chọn. Khi truy lĩnh lương cơ sở, hai mức cơ sở được so sánh trên cùng hệ số của từng tháng.</p>
+      <p>Tiền lương, phụ cấp và từng khoản bảo hiểm được làm tròn đến đồng. BHXH và BHYT dùng cùng căn cứ. Trần BHTN tính theo vùng lương tối thiểu của nơi làm việc.</p>
+      <ul class="sources">
+        <li><a href="https://vanban.chinhphu.vn/?docid=210537&amp;pageid=27160" target="_blank" rel="noopener">NĐ 73/2024</a></li>
+        <li><a href="https://vanban.chinhphu.vn/?docid=218107&amp;pageid=27160" target="_blank" rel="noopener">NĐ 161/2026</a></li>
+        <li><a href="https://vanban.chinhphu.vn/?docid=218228&amp;pageid=27160" target="_blank" rel="noopener">NĐ 182/2026</a></li>
+        <li><a href="https://congbao.chinhphu.vn/tai-ve-van-ban-so-06-vbhn-bgddt-29143-27084" target="_blank" rel="noopener">VBHN 06/VBHN-BGDĐT</a></li>
+        <li><a href="https://vanban.chinhphu.vn/?docid=203790&amp;pageid=27160" target="_blank" rel="noopener">NĐ 77/2021</a></li>
+        <li><a href="https://xaydungchinhsach.chinhphu.vn/toan-van-luat-so-41-2024-qh15-bao-hiem-xa-hoi-119240723163650489.htm" target="_blank" rel="noopener">Luật BHXH 2024</a></li>
+        <li><a href="https://vbpl.moj.gov.vn/boyte/Pages/vbpq-toanvan.aspx?ItemID=172923" target="_blank" rel="noopener">Luật BHYT sửa đổi</a></li>
+        <li><a href="https://congbao.chinhphu.vn/tai-ve-van-ban-so-74-2025-qh15-45562-57700?format=pdf" target="_blank" rel="noopener">Luật Việc làm 2025</a></li>
+        <li><a href="https://vanban.chinhphu.vn/?docid=216493&amp;pageid=27160" target="_blank" rel="noopener">NĐ 374/2025</a></li>
+        <li><a href="https://vbpl.moj.gov.vn/bonoivu/Pages/vbpq-toanvan.aspx?ItemID=183939" target="_blank" rel="noopener">NĐ 293/2025</a></li>
+      </ul>
+    </details>
+<p class="footer-credit">Đối chiếu từng khoản trên phiếu lương · <strong>Cùng thầy Đinh Như Huy</strong></p>
+<noscript><p class="panel">Bật JavaScript trong trình duyệt để tính lương và truy lĩnh.</p></noscript>
+</main>
+<nav class="quick-nav" aria-label="Điều hướng nhanh">
+ <a href="#input-panel">1. Nhập chung</a>
+ <a href="#calculation-options">2. Mục tính</a>
+ <button id="quick-result" type="button" disabled>3. Kết quả</button>
+</nav>
+<script>
+
+    "use strict";
+
+    const OLD_BASE = 2340000;
+    const NEW_BASE = 2530000;
+    const STANDARD_DAYS = 22;
+    const MINIMUM_WAGES = {I: 5310000, II: 4730000, III: 4140000, IV: 3700000};
+    const INSURANCE_DEFAULTS = {"social-rate": 8, "health-rate": 1.5, "unemployment-rate": 1};
+    const months = Array.from({length: 12}, (_, index) => index + 1);
+    const currency = new Intl.NumberFormat("vi-VN", {maximumFractionDigits: 0});
+    const decimal = new Intl.NumberFormat("vi-VN", {maximumFractionDigits: 4});
+    const get = (id) => document.getElementById(id);
+    const money = (value) => currency.format(value) + " đ";
+    const baseForMonth = (month) => month <= 6 ? OLD_BASE : NEW_BASE;
+    const monthName = (month) => String(month).padStart(2, "0") + "/2026";
+
+    const rateGuide = {
+      "secondary-normal": [40, "Điểm b, c khoản 5 Điều 3. Áp dụng mức cao hơn nếu đủ điều kiện theo địa bàn hoặc loại hình."],
+      "secondary-zone": [45, "Điểm b khoản 6 Điều 3. Chọn theo danh mục địa bàn có hiệu lực trong tháng."],
+      "gdtx-hard": [70, "Khoản 8 Điều 3. Áp dụng cho nhà giáo, cán bộ quản lý ở vùng ĐBKK, trừ trường hợp điểm c khoản 9."],
+      "school-hard": [80, "Điểm c khoản 9 Điều 3. Áp dụng cho nhà giáo giảng dạy tại trường phổ thông ở vùng ĐBKK."],
+      "primary-normal": [45, "Điểm a khoản 6 Điều 3. Áp dụng mức cao hơn nếu đủ điều kiện theo địa bàn hoặc loại hình."],
+      "primary-zone": [60, "Điểm b khoản 7 Điều 3. Chọn theo danh mục địa bàn có hiệu lực trong tháng."],
+      talent: [60, "Điểm a khoản 7 Điều 3."],
+      hard: [70, "Khoản 8 Điều 3. Áp dụng cho nhà giáo, cán bộ quản lý ở vùng ĐBKK, trừ trường hợp điểm c khoản 9."],
+      boarding: [80, "Điểm a khoản 9 Điều 3. Bao gồm các trường đặc thù được nêu tại điểm này."],
+      special: [80, "Điểm b khoản 9 Điều 3. Các trường hợp tại Điều 4 áp dụng theo quy định riêng."],
+      "primary-hard": [80, "Điểm c khoản 9 Điều 3. Áp dụng cho nhà giáo giảng dạy tại các cơ sở thuộc điểm này ở vùng ĐBKK."],
+      support: [20, "Khoản 1 Điều 3. Đối chiếu vị trí hỗ trợ giáo dục và loại hình cơ sở."],
+      university: [25, "Khoản 2 Điều 3. Đối chiếu đối tượng, cơ sở và nhiệm vụ thực tế."],
+      vocational: [30, "Khoản 3 Điều 3. Áp dụng với cao đẳng, trung cấp, trung tâm GDNN và các đối tượng được nêu tại khoản này."],
+      "vocational-zone": [35, "Khoản 4 Điều 3. Áp dụng cho trung tâm GDNN. Trung tâm GDNN–GDTX đối chiếu mức của nhóm GDTX."],
+      "vocational-forty": [40, "Điểm a, d, đ khoản 5 Điều 3. Đối chiếu môn, hình thức giảng dạy và tiêu chuẩn của nhóm trực tiếp giảng dạy thực hành."],
+      politics: [45, "Điểm c khoản 6 Điều 3. Đối chiếu cấp đào tạo và cơ sở."],
+      manual: [null, "Nhập mức đơn vị xác nhận. Trường hợp hưởng theo giờ có thể nhập tiền phụ cấp đã xác định."]
+    };
+    const modeLabels = {
+      old: "Tính lương cũ để đối chiếu",
+      new: "Tính lương mới",
+      
+      "base-arrears": "Tính chi tiết truy lĩnh lương cơ sở",
+      "allowance-arrears": "Tính chi tiết truy lĩnh phụ cấp"
+    };
+    const sharedFields = {
+      salary: [0.0001, 40],
+      leadership: [0, 40],
+      reserved: [0, 40],
+      responsibility: [0, 40],
+      area: [0, 40],
+      seniority: [0, 100],
+      overgrade: [0, 100],
+      attraction: [0, 100]
+    };
+    const workbench = get("workspace");
+    const result = get("result");
+    const modeButtons = [...document.querySelectorAll("button[data-mode]")];
+    const monthState = {
+      "base-arrears": {selected: new Set(months.slice(6)), paid: ""},
+      "allowance-arrears": {selected: new Set(months), paid: ""}
+    };
+    let activeMode = "";
+    const modeOrder = ["old", "new", "base-arrears", "allowance-arrears"];
+    const salaryMonth = {old: 6, new: 7};
+    const menuHints = Object.fromEntries(modeOrder.map(mode => [mode, get("value-" + mode).textContent]));
+    const calculatedValues = {};
+
+    function profileForMonth(profile, month) {
+      if (month <= 6 || !get("period-change").checked) return profile;
+      return {...profile,
+        salary: readDecimal("salary-second", {min: 0.0001, max: 40, fallback: profile.salary}),
+        seniority: readDecimal("seniority-second", {fallback: profile.seniority})
+      };
+    }
+
+    function oldRateForMonth(month) {
+      const common = readDecimal("old-rate", {required: true});
+      return month > 6 && get("period-change").checked
+        ? readDecimal("old-rate-second", {fallback: common}) : common;
+    }
+
+    function invalidateValues(modes = modeOrder) {
+      for (const mode of modes) {
+        delete calculatedValues[mode];
+        get("value-" + mode).textContent = menuHints[mode];
+        modeButtons.find(button => button.dataset.mode === mode).classList.remove("is-done");
+      }
+    }
+
+    function updateProfileSummary() {
+      const salary = get("salary").value.trim() || "…";
+      const second = get("period-change").checked ? get("salary-second").value.trim() : "";
+      const rateOld = get("old-rate").value.trim() || "…";
+      const rateNew = get("new-rate").value.trim() || "…";
+      const seniority = get("seniority").value.trim() || "0";
+      get("profile-summary").textContent = "Hệ số " + salary + (second && second !== salary ? " / " + second : "")
+        + " · Thâm niên " + seniority + "% · Ưu đãi " + rateOld + "% → " + rateNew + "%";
+      const insuranceNames = {"social-rate": "BHXH", "health-rate": "BHYT", "unemployment-rate": "BHTN"};
+      get("insurance-summary").textContent = Object.entries(INSURANCE_DEFAULTS).map(([id, fallback]) =>
+        insuranceNames[id] + " " + (get(id).value.trim() || decimal.format(fallback)) + "%").join(" · ");
+    }
+
+    function updateSalaryOptions() {
+      const useNew = activeMode === "new" && document.querySelector('input[name="salary-rate"]:checked').value === "new";
+      get("decree-settings").hidden = !useNew;
+      get("pay-month-label").textContent = activeMode === "old" ? "Tháng cần đối chiếu" : "Tháng tính lương";
+      get("mode-context").textContent = activeMode === "old"
+        ? "Dùng lương cơ sở 2.340.000 đ và ưu đãi cũ. Hệ số, thâm niên lấy theo tháng đã chọn."
+        : useNew ? "Dùng lương cơ sở đúng kỳ và ưu đãi mới đã nhập. Tính cả lương theo Nghị định 182."
+        : "Dùng lương cơ sở đúng kỳ và ưu đãi cũ để đối chiếu phần tăng lương cơ sở.";
+    }
+
+
+    function fieldLabel(input) {
+      return input.labels[0].textContent.replace(/\s*\*$/, "").trim();
+    }
+
+    function invalid(input, message) {
+      const error = new Error(message);
+      error.input = input;
+      throw error;
+    }
+
+    function readDecimal(id, {min = 0, max = 100, required = false, fallback = 0, integer = false} = {}) {
+      const input = get(id);
+      const raw = input.value.trim();
+      const label = fieldLabel(input);
+      if (raw === "") {
+        if (required) invalid(input, "Hãy nhập " + label.toLocaleLowerCase("vi-VN") + ".");
+        return fallback;
+      }
+      const pattern = integer ? /^\d+$/ : /^\d+(?:[.,]\d+)?$/;
+      const value = Number(raw.replace(",", "."));
+      if (!pattern.test(raw) || !Number.isFinite(value) || value < min || value > max) {
+        const range = min === 0.0001 ? "lớn hơn 0 và tối đa " + max : "từ " + min + " đến " + max;
+        const kind = integer ? "một số nguyên" : "một số";
+        invalid(input, label + " phải là " + kind + " " + range + ".");
+      }
+      return value;
+    }
+
+    function readAmount(id, fallback = null) {
+      const input = get(id);
+      const raw = input.value.trim();
+      if (!raw) return fallback;
+      const isAmount = /^\d+$/.test(raw) || /^\d{1,3}(?:\.\d{3})+$/.test(raw);
+      const value = Number(raw.replace(/\./g, ""));
+      if (!isAmount || !Number.isSafeInteger(value) || value > 1000000000000) {
+        invalid(input, fieldLabel(input) + " cần là số tiền nguyên từ 0 đến 1.000.000.000.000 đồng.");
+      }
+      return value;
+    }
+
+    function readProfile() {
+      const profile = Object.fromEntries(Object.entries(sharedFields).map(([id, [min, max]]) => {
+        return [id, readDecimal(id, {min, max, required: id === "salary"})];
+      }));
+      profile.insurance = Object.fromEntries(Object.entries(INSURANCE_DEFAULTS).map(([id, fallback]) => {
+        return [id, readDecimal(id, {fallback})];
+      }));
+      profile.regionalMinimum = MINIMUM_WAGES[get("unemployment-region").value] ?? 0;
+      return profile;
+    }
+
+    // Convert the decimal multiplier to a fraction before rounding to whole đồng.
+    function roundedProduct(amount, factor, denominator = 1, numerator = 1) {
+      const [coefficient, exponent = "0"] = String(factor).split("e");
+      const [whole, fraction = ""] = coefficient.split(".");
+      const places = fraction.length - Number(exponent);
+      const units = BigInt(whole + fraction) * BigInt(amount) * BigInt(numerator);
+      const dividend = units * 10n ** BigInt(Math.max(0, -places));
+      const divisor = BigInt(denominator) * 10n ** BigInt(Math.max(0, places));
+      return Number((2n * dividend + divisor) / (2n * divisor));
+    }
+
+    function payroll(profile, base, rate, {decree = false, excluded = 0, override = null} = {}) {
+      const salary = roundedProduct(base, profile.salary);
+      const leadership = roundedProduct(base, profile.leadership);
+      const reserved = roundedProduct(base, profile.reserved);
+      const responsibility = roundedProduct(base, profile.responsibility);
+      const region = roundedProduct(base, profile.area);
+      const overgrade = roundedProduct(salary, profile.overgrade, 100);
+      const regularBasis = salary + leadership + overgrade;
+      const seniority = roundedProduct(regularBasis, profile.seniority, 100);
+      const attraction = roundedProduct(regularBasis, profile.attraction, 100);
+      const allowanceBasis = regularBasis + (decree ? reserved : 0);
+      const allowance = override ?? roundedProduct(allowanceBasis, rate, 100 * STANDARD_DAYS, STANDARD_DAYS - excluded);
+      const insuranceRawBasis = regularBasis + seniority + reserved;
+      const insuranceBasis = Math.min(Math.max(insuranceRawBasis, base), 20 * base);
+      const unemploymentBasis = profile.regionalMinimum
+        ? Math.min(insuranceRawBasis, 20 * profile.regionalMinimum) : insuranceRawBasis;
+      const social = roundedProduct(insuranceBasis, profile.insurance["social-rate"], 100);
+      const health = roundedProduct(insuranceBasis, profile.insurance["health-rate"], 100);
+      const unemployment = roundedProduct(unemploymentBasis, profile.insurance["unemployment-rate"], 100);
+      const insurance = social + health + unemployment;
+      const needUnemploymentRegion = profile.insurance["unemployment-rate"] > 0
+        && insuranceRawBasis > 20 * MINIMUM_WAGES.IV;
+      const gross = regularBasis + reserved + responsibility + region + seniority + attraction + allowance;
+      return {
+        base, salary, leadership, reserved, responsibility, region, overgrade, seniority, attraction,
+        allowanceBasis, allowance, insuranceBasis, unemploymentBasis, needUnemploymentRegion,
+        social, health, unemployment, insurance, gross, net: gross - insurance
+      };
+    }
+
+    function checkInsuranceRegion(profile, ...payrolls) {
+      const needed = payrolls.some(pay => pay.needUnemploymentRegion);
+      get("region-field").hidden = !needed;
+      if (needed && !profile.regionalMinimum) {
+        invalid(get("unemployment-region"), "Chọn vùng lương tối thiểu của nơi làm việc để tính đúng trần bảo hiểm thất nghiệp.");
+      }
+    }
+
+    function createMonths(first, last) {
+      return months.filter(month => month >= first && month <= last).map(month => {
+        return '<label class="month"><input type="checkbox" data-month="' + month
+          + '" aria-label="Tháng ' + monthName(month) + '"><span>T' + month + '</span></label>';
+      }).join("");
+    }
+
+    function createOverrideField(month, key, label, placeholder, mode, size) {
+      const id = key + "-" + month;
+      return '<div class="field"><label for="' + id + '">' + label + '</label><input id="' + id
+        + '" inputmode="' + mode + '" maxlength="' + size + '" placeholder="' + placeholder
+        + '" aria-describedby="override-label-' + month + '"></div>';
+    }
+
+    function setupMonths() {
+      get("pay-month").innerHTML = months.map(month => '<option value="' + month + '">Tháng ' + monthName(month) + '</option>').join("");
+      get("pay-month").value = "7";
+      get("first-months").innerHTML = createMonths(1, 6);
+      get("second-months").innerHTML = createMonths(7, 12);
+      get("override-fields").innerHTML = months.map(month => {
+        const fields = [
+          createOverrideField(month, "monthly-rate", "Ưu đãi mới (%)", "Dùng mức chung", "decimal", 8),
+          createOverrideField(month, "monthly-days", "Ngày không hưởng", "0–22", "numeric", 2),
+          createOverrideField(month, "monthly-old", "Tiền ưu đãi cũ (đ)", "Dùng mức chung", "numeric", 16),
+          createOverrideField(month, "monthly-new", "Tiền ưu đãi mới (đ)", "Tính theo tỷ lệ", "numeric", 16)
+        ].join("");
+        return '<div class="override-row" id="override-' + month + '"><p class="subtle focus-highlight" id="override-label-' + month
+          + '">Tháng ' + monthName(month) + '</p><div class="grid">' + fields + '</div></div>';
+      }).join("");
+    }
+
+    function updateMonthCount() {
+      const selected = monthState[activeMode].selected.size;
+      const total = activeMode === "base-arrears" ? 6 : 12;
+      get("month-count").textContent = "Đã chọn " + selected + "/" + total + " tháng";
+      get("toggle-months").textContent = selected === total ? "Bỏ chọn hết" : "Chọn tất cả";
+    }
+
+    function syncMonths() {
+      const state = monthState[activeMode];
+      for (const input of get("arrears-settings").querySelectorAll("[data-month]")) {
+        const month = Number(input.dataset.month);
+        input.checked = state.selected.has(month);
+        get("override-" + month).hidden = !input.checked;
+      }
+      get("already-paid").value = state.paid;
+      updateMonthCount();
+    }
+
+    function clearMessages() {
+      for (const id of ["shared-error", "mode-error"]) {
+        get(id).hidden = true;
+        get(id).textContent = "";
+      }
+      for (const input of document.querySelectorAll('[aria-invalid="true"]')) {
+        input.removeAttribute("aria-invalid");
+      }
+    }
+
+    function clearResult() {
+      result.hidden = true;
+      result.innerHTML = "";
+      get("quick-result").disabled = true;
+    }
+
+    function activateMode(button, {autoCalculate = true, scroll = true} = {}) {
+      clearMessages();
+      clearResult();
+      activeMode = button.dataset.mode;
+      for (const other of modeButtons) other.setAttribute("aria-expanded", String(other === button));
+      get("active-title").textContent = button.querySelector("strong").textContent;
+      get("active-number").textContent = String(modeOrder.indexOf(activeMode) + 1).padStart(2, "0");
+      workbench.hidden = false;
+      get("start-hint").hidden = true;
+      const allowanceArrears = activeMode === "allowance-arrears";
+      const arrears = Boolean(monthState[activeMode]);
+      get("mode-context").hidden = arrears;
+      get("salary-settings").hidden = arrears;
+      get("salary-rate-choice").hidden = activeMode !== "new";
+      get("arrears-settings").hidden = !arrears;
+      get("first-half").hidden = !allowanceArrears;
+      get("month-overrides").hidden = !allowanceArrears;
+      get("second-half-basis").textContent = allowanceArrears ? "· 2.530.000 đ" : "· 2.340.000 → 2.530.000 đ";
+      get("arrears-note").textContent = allowanceArrears
+        ? "So ưu đãi cũ và mới trên cùng mức lương cơ sở đúng kỳ. Không tính thâm niên nghề vào căn cứ phụ cấp ưu đãi."
+        : "So hai mức lương cơ sở trên cùng hệ số và ưu đãi cũ của từng tháng, sau khi trừ phần bảo hiểm tăng.";
+      get("paid-hint").textContent = allowanceArrears
+        ? "Chỉ nhập chênh lệch ưu đãi đã nhận cho các tháng đang chọn, trước thuế."
+        : "Chỉ nhập chênh lệch lương cơ sở đã nhận cho các tháng đang chọn, sau bảo hiểm và trước thuế.";
+      get("calculate").textContent = modeLabels[activeMode];
+      get("previous-mode").disabled = activeMode === "old";
+      get("next-mode").textContent = activeMode === "allowance-arrears" ? "Về nhập thông số ↑" : "Mục tiếp theo →";
+      if (arrears) {
+        syncMonths();
+        get("paid-details").open = Boolean(monthState[activeMode].paid);
+      } else {
+        get("pay-month").value = String(salaryMonth[activeMode]);
+        updateSalaryOptions();
+      }
+      updateProfileSummary();
+      const hasShared = get("salary").value.trim() && get("old-rate").value.trim();
+      const needsNew = allowanceArrears || (activeMode === "new" && document.querySelector('input[name="salary-rate"]:checked').value === "new" && !get("decree-actual").value.trim());
+      let succeeded = true;
+      if (autoCalculate && hasShared && (!needsNew || get("new-rate").value.trim())) succeeded = calculate(false);
+      if (scroll && succeeded) workbench.scrollIntoView({block: "start"});
+    }
+
+    function detailList(items) {
+      return '<dl class="breakdown">' + items.map(([label, value]) => '<div><dt>' + label + '</dt><dd>' + value + '</dd></div>').join("") + '</dl>';
+    }
+
+    function resultCard(label, value, items, {summary, footer = ""}) {
+      const details = '<details class="expand"><summary>Xem các khoản tính</summary>' + detailList(items) + '</details>';
+      result.innerHTML = '<div class="amount"><span>' + label + '</span><b id="result-value">' + money(value)
+        + '</b></div>' + detailList(summary) + details + footer;
+      result.hidden = false;
+      get("quick-result").disabled = false;
+      calculatedValues[activeMode] = value;
+      get("value-" + activeMode).textContent = money(value);
+      modeButtons.find(button => button.dataset.mode === activeMode).classList.add("is-done");
+    }
+
+    function renderSalary(profile, mode) {
+      const decree = mode === "new" && document.querySelector('input[name="salary-rate"]:checked').value === "new";
+      const month = Number(get("pay-month").value);
+      profile = profileForMonth(profile, month);
+      const base = mode === "old" ? OLD_BASE : baseForMonth(month);
+      const override = decree ? readAmount("decree-actual") : null;
+      const excluded = decree && override === null
+        ? readDecimal("excluded-days", {max: STANDARD_DAYS, integer: true}) : 0;
+      const rate = decree
+        ? (override === null ? readDecimal("new-rate", {required: true}) : 0)
+        : oldRateForMonth(month);
+      const pay = payroll(profile, base, rate, {decree, excluded, override});
+      checkInsuranceRegion(profile, pay);
+      const items = [
+        ["Tháng áp dụng thông số", monthName(month)],
+        ["Hệ số lương của tháng", decimal.format(profile.salary)],
+        ["Lương cơ sở áp dụng", money(base)],
+        ["Lương theo hệ số", money(pay.salary)]
+      ];
+
+      const extras = [
+        ["Chức vụ lãnh đạo", pay.leadership], ["Chênh lệch bảo lưu", pay.reserved],
+        ["Thâm niên vượt khung", pay.overgrade], ["Thâm niên nghề", pay.seniority],
+        ["Trách nhiệm", pay.responsibility], ["Khu vực", pay.region], ["Thu hút", pay.attraction]
+      ];
+      for (const [label, amount] of extras) {
+        if (amount > 0) items.push([label, money(amount)]);
+      }
+
+      const allowanceName = decree ? "Ưu đãi NĐ 182" : "Ưu đãi cũ";
+      if (override === null) {
+        items.push(["Căn cứ tính ưu đãi", money(pay.allowanceBasis)]);
+        const days = excluded > 0 ? " · " + (STANDARD_DAYS - excluded) + "/22 ngày" : "";
+        items.push([allowanceName + " (" + decimal.format(rate) + "%" + days + ")", money(pay.allowance)]);
+      } else {
+        items.push([allowanceName + " (nhập trực tiếp)", money(pay.allowance)]);
+      }
+      if (decree && excluded === 0 && override === null && get("old-rate").value.trim() !== "") {
+        const oldRate = oldRateForMonth(month);
+        const oldPay = payroll(profile, base, oldRate);
+        items.push(["Chênh lệch ưu đãi so với mức cũ", money(pay.allowance - oldPay.allowance)]);
+      }
+      items.push(["Căn cứ đóng BHXH, BHYT", money(pay.insuranceBasis)]);
+      items.push(["Căn cứ đóng BHTN", money(pay.unemploymentBasis)]);
+      items.push(["BHXH · " + decimal.format(profile.insurance["social-rate"]) + "%", money(pay.social)]);
+      items.push(["BHYT · " + decimal.format(profile.insurance["health-rate"]) + "%", money(pay.health)]);
+      items.push(["BHTN · " + decimal.format(profile.insurance["unemployment-rate"]) + "%", money(pay.unemployment)]);
+      const summary = [
+        ["Tổng lương và phụ cấp", money(pay.gross)],
+        ["Bảo hiểm trừ từ lương", money(pay.insurance)]
+      ];
+      if (mode === "new") {
+        const baseline = payroll(profile, OLD_BASE, oldRateForMonth(month));
+        checkInsuranceRegion(profile, pay, baseline);
+        summary.push(["Lương mức cơ sở cũ, cùng hệ số", money(baseline.net)]);
+        summary.push(["Chênh lệch so với mức trên", money(pay.net - baseline.net)]);
+      }
+      resultCard("Tháng " + monthName(month) + " · Sau bảo hiểm, trước thuế", pay.net, items, {summary});
+    }
+
+    function detailsTable(caption, headers, rows) {
+      const heading = headers.map((label) => '<th scope="col">' + label + '</th>').join("");
+      const body = rows.map(([month, ...amounts]) => '<tr><th scope="row">T' + month + '</th>'
+        + amounts.map((amount) => '<td' + (amount < 0 ? ' class="negative"' : '') + '>' + currency.format(amount) + '</td>').join("") + '</tr>').join("");
+      return '<details class="expand"><summary>Xem bảng chi tiết theo tháng</summary><div class="table-wrap"><table><caption>'
+        + caption + ' (đồng)</caption><thead><tr>' + heading + '</tr></thead><tbody>' + body
+        + '</tbody></table></div></details>';
+    }
+
+    function renderArrears(total, paid, items, caption, headers, rows) {
+      const summary = [
+        ["Tổng chênh lệch ước tính", money(total)],
+        ["Truy lĩnh đã nhận", money(paid)]
+      ];
+      let footer = detailsTable(caption, headers, rows);
+      if (paid > total) footer += '<p class="hint">Số tiền đã chi lớn hơn chênh lệch ước tính. Hãy đối chiếu các tháng và khoản đã chi.</p>';
+      resultCard("Ước tính còn được truy lĩnh · Trước thuế", Math.max(0, total - paid), items, {summary, footer});
+    }
+
+    function renderBaseArrears(profile, selected, oldRate, paid) {
+      let grossDifference = 0, insuranceDifference = 0;
+      const rows = selected.map(month => {
+        const current = profileForMonth(profile, month);
+        const rate = oldRateForMonth(month);
+        const before = payroll(current, OLD_BASE, rate);
+        const after = payroll(current, NEW_BASE, rate);
+        checkInsuranceRegion(current, before, after);
+        grossDifference += after.gross - before.gross;
+        insuranceDifference += after.insurance - before.insurance;
+        return [month, before.net, after.net, after.net - before.net];
+      });
+      const total = rows.reduce((sum, row) => sum + row[3], 0);
+      renderArrears(total, paid, [
+        ["Số tháng đã chọn", decimal.format(selected.length)],
+        ["Chênh lệch lương cơ sở", money(NEW_BASE - OLD_BASE)],
+        ["Tổng tăng lương và phụ cấp", money(grossDifference)],
+        ["Tổng bảo hiểm tăng", money(insuranceDifference)],
+        ["Chênh lệch sau bảo hiểm", money(total)]
+      ], "Lương sau bảo hiểm, cùng hệ số từng tháng", ["Tháng", "Cơ sở cũ", "Cơ sở mới", "Chênh lệch"], rows);
+    }
+
+    function allowanceForMonth(profile, oldRate, month) {
+      profile = profileForMonth(profile, month);
+      oldRate = oldRateForMonth(month);
+      const base = baseForMonth(month);
+      const oldOverride = readAmount("monthly-old-" + month);
+      const newOverride = readAmount("monthly-new-" + month);
+      const oldAllowance = oldOverride ?? payroll(profile, base, oldRate).allowance;
+      if (newOverride !== null) return [month, oldAllowance, newOverride, newOverride - oldAllowance];
+
+      const monthlyRate = readDecimal("monthly-rate-" + month, {fallback: null});
+      const rate = monthlyRate ?? readDecimal("new-rate", {required: true});
+      const excluded = readDecimal("monthly-days-" + month, {max: STANDARD_DAYS, integer: true});
+      const allowance = payroll(profile, base, rate, {decree: true, excluded}).allowance;
+      return [month, oldAllowance, allowance, allowance - oldAllowance];
+    }
+
+    function renderAllowanceArrears(profile, selected, oldRate, paid) {
+      const rows = selected.map(month => allowanceForMonth(profile, oldRate, month));
+      const subtotals = [0, 0];
+      for (const [month, , , difference] of rows) {
+        subtotals[month <= 6 ? 0 : 1] += Math.max(0, difference);
+      }
+      renderArrears(subtotals[0] + subtotals[1], paid, [
+        ["Số tháng đã chọn", decimal.format(selected.length)],
+        ["Truy lĩnh tháng 1–6", money(subtotals[0])],
+        ["Truy lĩnh tháng 7–12", money(subtotals[1])]
+      ], "Ưu đãi theo mức lương cơ sở từng kỳ", ["Tháng", "Ưu đãi cũ", "Ưu đãi mới", "Chênh lệch"], rows);
+      if (rows.some(([, , , difference]) => difference < 0)) {
+        result.insertAdjacentHTML("beforeend", '<p class="hint">Tháng có chênh lệch âm cho số truy lĩnh bằng 0 đồng. Kiểm tra mức bảo lưu nếu đơn vị xác nhận có áp dụng.</p>');
+      }
+    }
+
+    function reportError(error) {
+      const input = error.input;
+      const shared = input && !workbench.contains(input);
+      const message = get(shared ? "shared-error" : "mode-error");
+      message.textContent = error.message;
+      message.hidden = false;
+      if (input) {
+        let parent = input.parentElement;
+        while (parent) {
+          if (parent.tagName === "DETAILS") parent.open = true;
+          parent = parent.parentElement;
+        }
+        input.setAttribute("aria-invalid", "true");
+        input.focus();
+      }
+    }
+
+    function calculate(scrollToResult = true) {
+      clearMessages();
+      clearResult();
+      invalidateValues([activeMode]);
+      try {
+        const profile = readProfile();
+        if (monthState[activeMode]) {
+          const selected = [...monthState[activeMode].selected].sort((a, b) => a - b);
+          if (selected.length === 0) throw new Error("Hãy chọn ít nhất một tháng.");
+          const oldRate = readDecimal("old-rate", {required: true});
+          const paid = readAmount("already-paid", 0);
+          if (activeMode === "base-arrears") {
+            renderBaseArrears(profile, selected, oldRate, paid);
+          } else {
+            renderAllowanceArrears(profile, selected, oldRate, paid);
+          }
+        } else {
+          renderSalary(profile, activeMode);
+        }
+        if (scrollToResult) {
+          if (hasKeyboardInput()) document.activeElement.blur();
+          result.focus({preventScroll: true});
+          result.scrollIntoView({block: "start"});
+        }
+        return true;
+      } catch (error) {
+        reportError(error);
+        return false;
+      }
+    }
+
+    setupMonths();
+    // Numeric keyboards on Android/iOS; keep all entered numbers as text for decimal commas.
+    for (const input of document.querySelectorAll('input[inputmode]')) {
+      input.setAttribute("autocomplete", "off");
+      input.setAttribute("autocapitalize", "off");
+      input.setAttribute("spellcheck", "false");
+      input.setAttribute("enterkeyhint", "done");
+    }
+    const hasKeyboardInput = () => document.activeElement?.matches('input:not([type="checkbox"]):not([type="radio"])');
+    document.addEventListener("focusin", () => document.body.classList.toggle("keyboard-open", Boolean(hasKeyboardInput())));
+    document.addEventListener("focusout", () => requestAnimationFrame(() => document.body.classList.toggle("keyboard-open", Boolean(hasKeyboardInput()))));
+    get("quick-result").addEventListener("click", () => {
+      if (!result.hidden) { result.focus({preventScroll: true}); result.scrollIntoView({block: "start"}); }
+    });
+    updateProfileSummary();
+    for (const button of modeButtons) button.addEventListener("click", () => activateMode(button));
+    get("calculate").addEventListener("click", () => calculate());
+    get("start-calculation").addEventListener("click", () => {
+      activateMode(modeButtons[0], {autoCalculate: false, scroll: false});
+      calculate(false);
+      if (!result.hidden) get("calculation-options").scrollIntoView({block: "start"});
+    });
+    get("previous-mode").addEventListener("click", () => {
+      const index = modeOrder.indexOf(activeMode);
+      if (index > 0) activateMode(modeButtons[index - 1]);
+    });
+    get("next-mode").addEventListener("click", () => {
+      const index = modeOrder.indexOf(activeMode);
+      if (index < modeOrder.length - 1) activateMode(modeButtons[index + 1]);
+      else { get("input-panel").scrollIntoView({block: "start"}); get("salary").focus({preventScroll: true}); }
+    });
+    get("toggle-months").addEventListener("click", () => {
+      const state = monthState[activeMode];
+      const period = activeMode === "base-arrears" ? months.slice(6) : months;
+      state.selected = new Set(state.selected.size === period.length ? [] : period);
+      syncMonths(); clearMessages(); clearResult(); invalidateValues([activeMode]);
+    });
+    get("category").addEventListener("change", () => {
+      const selected = rateGuide[get("category").value];
+      get("category-reference").hidden = !selected;
+      get("category-reference").textContent = selected?.[1] ?? "";
+      if (selected?.[0] != null) get("new-rate").value = String(selected[0]);
+      updateProfileSummary(); clearMessages(); clearResult(); invalidateValues();
+    });
+    get("period-change").addEventListener("change", () => {
+      get("period-profile").hidden = !get("period-change").checked;
+      updateProfileSummary(); clearMessages(); clearResult(); invalidateValues();
+    });
+    workbench.addEventListener("input", (event) => {
+      const target = event.target;
+      const state = monthState[activeMode];
+      if (state && target.dataset.month) {
+        const month = Number(target.dataset.month);
+        if (target.checked) state.selected.add(month); else state.selected.delete(month);
+        get("override-" + month).hidden = !target.checked;
+        updateMonthCount();
+      }
+      if (state && target.id === "already-paid") state.paid = target.value;
+      if (target.id === "pay-month") salaryMonth[activeMode] = Number(target.value);
+      if (target.name === "salary-rate") updateSalaryOptions();
+      clearMessages(); clearResult(); invalidateValues([activeMode]);
+    });
+    for (const id of ["shared-inputs", "extra-fields", "insurance-fields"]) {
+      get(id).addEventListener("input", () => {
+        updateProfileSummary(); clearMessages(); clearResult(); invalidateValues();
+      });
+    }
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" && event.target.matches('input:not([type="checkbox"]):not([type="radio"])')) {
+        event.preventDefault();
+        if (!activeMode) activateMode(modeButtons[0], {autoCalculate: false, scroll: false});
+        calculate();
+      }
+    });
+
+</script>
+</body>
+</html>
